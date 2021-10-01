@@ -13,7 +13,6 @@ import { NotImplementedError } from '../extensions/index.js';
  */
 export default function sortByHeight(arr) {
   let arrCopy = [...arr];
-  const re = /-1;/gi;
 
   arrCopy = arrCopy.sort((a, b) => a - b).join(';').replace(/-1;/gi,'').split(';').map(el => +el);
   if(arrCopy[arrCopy.length - 1] === -1) arrCopy.pop();
