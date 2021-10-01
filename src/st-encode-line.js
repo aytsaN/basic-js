@@ -11,6 +11,6 @@ import { NotImplementedError } from '../extensions/index.js';
  *
  */
 export default function encodeLine(/* str */) {
-  throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
+  throw new NotImplementedError('Not implemented');
 }
